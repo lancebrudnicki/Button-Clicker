@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-style: oblique;
+    }
+body{
+    background-image: url(https://www.fnal.gov/pub/today/images/images12/NS120420_Figure02.jpg);
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+/* .box h1{
+    background-color: red; 
+}*/
+
+.box{
+    height: 100%;
+    width: 100%;
+}
+.mid-box{
+    /* background-color: black; */
+    height: 40%px;
+    width: 40%px;
+    /* padding: 100px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.mid-box h1{
+    /* padding: 30px; */
+    flex: 3;
+
+}
+.Button{
+    font-size: 50px;
+
+}
+
+
+#inc{
+    font-size: 50px;
+    width: 50px;
+    flex: 1;
+}
